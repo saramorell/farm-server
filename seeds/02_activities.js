@@ -6,32 +6,38 @@ exports.seed = function(knex) {
       return knex('activities').insert([{
             id: 1,
             name: "Tours",
-            icon: "t-icon.svg"
+            icon: "t-icon.svg",
+            color: "#f38230"
           },
           {
             id: 2,
             name: "Farm Stand",
-            icon: "f-icon.svg"
+            icon: "f-icon.svg",
+            color: "#45ac4f"
           },
           {
             id: 3,
             name: "On-Farm Sales",
-            icon: "o-icon.svg"
+            icon: "o-icon.svg",
+            color: "#a5cd9c",
           },
           {
             id: 4,
             name: "Volunteer Opportunities",
-            icon: "v-icon.svg"
+            icon: "v-icon.svg",
+            color: "#786e64",
           },
           {
             id: 5,
             name: "Workshops/Classes",
-            icon: "w-icon.svg"
+            icon: "w-icon.svg",
+            color: "#b0a8a1",
           },
           {
             id: 6,
             name: "Farm Dinners",
-            icon: "d-icon.svg"
+            icon: "d-icon.svg",
+            color: "#000000",
           },
           {
             id: 7,

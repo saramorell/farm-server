@@ -21,7 +21,7 @@ exports.seed = function(knex, Promise) {
           {
             id: 4,
             farm_id: 1,
-            activity_id: 9
+            activity_id: 7
           },
           {
             id: 5,
@@ -436,6 +436,11 @@ exports.seed = function(knex, Promise) {
           {
             id: 87,
             farm_id: 21,
+            activity_id: 13
+          },
+          {
+            id: 88,
+            farm_id: 1,
             activity_id: 13
           }
         ])
