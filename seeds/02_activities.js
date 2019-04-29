@@ -7,77 +7,86 @@ exports.seed = function(knex) {
             id: 1,
             name: "Tours",
             icon: "t-icon.svg",
-            color: "#f38230"
+            class: "tours"
           },
           {
             id: 2,
             name: "Farm Stand",
             icon: "f-icon.svg",
-            color: "#45ac4f"
+            class: "farm-stand"
           },
           {
             id: 3,
             name: "On-Farm Sales",
             icon: "o-icon.svg",
-            color: "#a5cd9c",
+            class: "sales",
           },
           {
             id: 4,
             name: "Volunteer Opportunities",
             icon: "v-icon.svg",
-            color: "#786e64",
+            class: "volunteer",
           },
           {
             id: 5,
             name: "Workshops/Classes",
             icon: "w-icon.svg",
-            color: "#b0a8a1",
+            class: "workshops",
           },
           {
             id: 6,
             name: "Farm Dinners",
             icon: "d-icon.svg",
-            color: "#000000",
+            class: "dinners",
           },
           {
             id: 7,
             name: "Picknicking",
-            icon: "p-icon.svg"
+            icon: "p-icon.svg",
+            class: "picknicking"
           },
           {
             id: 8,
             name: "Skeins of Wool",
-            icon: "s-icon.svg"
+            icon: "s-icon.svg",
+            class: "wool"
           },
           {
             id: 9,
             name: "Pumpkin Patch",
-            icon: "pp-icon.svg"
+            icon: "pp-icon.svg",
+            class: "pumpkin"
           },
           {
             id: 10,
             name: "Corn Maze",
-            icon: "c-icon.svg"
+            icon: "c-icon.svg",
+            class: "corn"
           },
           {
             id: 11,
             name: "Hay Rides",
-            icon: "h-icon.svg"
+            icon: "h-icon.svg",
+            class: "hay-rides"
           },
           {
             id: 12,
             name: "You-Pick",
-            icon: "y-icon.svg"
+            icon: "y-icon.svg",
+            class: "you-pick"
+
           },
           {
             id: 13,
             name: "Animal Interaction",
-            icon: "a-icon.svg"
+            icon: "a-icon.svg",
+            class: "animals"
           },
           {
             id: 14,
             name: "Chistmas Trees",
-            icon: "x-icon.svg"
+            icon: "x-icon.svg",
+            class: "x-mas"
           }
         ])
         .then(() => {
